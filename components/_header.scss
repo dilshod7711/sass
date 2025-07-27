@@ -1,8 +1,18 @@
 .header {
+
     &__nav {
         @include d-flex;
         justify-content: space-between;
 
+        .shop-cart {
+            display: none
+        }
+        .user {
+            display: none
+        }
+    .search{
+        display: none
+    }
 
     }
 
@@ -13,6 +23,10 @@
         border-top: 1px solid #0000001A;
         padding: 20px;
 
+        @media (max-width: 500px) {
+            display: none;
+        }
+
         a {
             color: var(--menu-color);
             font-family: Satoshi;
@@ -22,6 +36,22 @@
             line-height: 100%;
             letter-spacing: 0%;
 
+        }
+    }
+
+    .menu {
+        display: none;
+    }
+    .search2 {
+        display: none;
+    }
+    @media (max-width: 500px) {
+        .menu {
+            display: inline-block;
+        }
+        .search2 {
+            display: inline-block;
+            
         }
     }
 }
