@@ -5,6 +5,43 @@
         @include d-flex;
         gap: 32px;
 
+        @media (max-width: 500px) {
+            flex-wrap: wrap;
+
+            img {
+                width: 163px;
+            }
+
+            p {
+                font-family: Satoshi;
+                font-weight: 400;
+                font-style: Regular;
+                font-size: 20px;
+                line-height: 140%;
+                letter-spacing: 0%;
+
+            }
+
+            span {
+                font-family: Satoshi;
+                font-weight: 400;
+                font-style: Regular;
+                font-size: 18px;
+                line-height: 150%;
+                letter-spacing: 0%;
+
+            }
+            button {
+                font-family: Satoshi;
+font-weight: 400;
+font-style: Regular;
+font-size: 16px;
+line-height: 150%;
+letter-spacing: 0%;
+
+            }
+        }
+
         p {
             font-family: Satoshi;
             font-weight: 400;
@@ -13,6 +50,7 @@
             line-height: 140%;
             letter-spacing: 0%;
             margin-top: 15px;
+
 
         }
 
@@ -27,7 +65,7 @@
     }
 
     button {
-       
+
         border: none;
         background-color: var(--main-color);
         text-align: center;
@@ -40,9 +78,10 @@
         color: var(--text-color);
         @include d-flex;
         margin: 0 auto;
-         margin-top: 80px;
-         &:hover{
-          cursor: pointer;
-         }
+        margin-top: 80px;
+
+        &:hover {
+            cursor: pointer;
+        }
     }
 }

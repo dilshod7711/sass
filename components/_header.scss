@@ -4,14 +4,9 @@
         @include d-flex;
         justify-content: space-between;
 
-        .shop-cart {
-            display: none
-        }
-        .user {
-            display: none
-        }
-    .search{
-        display: none
+     
+    .search2 {
+        display: none;
     }
 
     }
@@ -38,13 +33,10 @@
 
         }
     }
-
     .menu {
         display: none;
     }
-    .search2 {
-        display: none;
-    }
+   
     @media (max-width: 500px) {
         .menu {
             display: inline-block;
@@ -53,5 +45,16 @@
             display: inline-block;
             
         }
+           .shop-cart {
+            display: none
+        }
+        .user {
+            display: none
+        }
+     
+ 
+       .search{
+        display: none
+    }
     }
 }
