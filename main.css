@@ -153,7 +153,7 @@ body {
   font-size: 16px;
   line-height: 150%;
   color: #2A254B;
-  margin-top: 170px;
+  margin-top: 150px;
   border: none;
   background-color: var(--main-color);
 }
@@ -228,11 +228,6 @@ body {
   gap: 162px;
   margin-top: 80px;
 }
-@media (max-width: 500px) {
-  .heroText__content {
-    flex-direction: column;
-  }
-}
 @media (max-width: 1024px) {
   .heroText__content {
     display: grid;
@@ -240,6 +235,14 @@ body {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: auto auto;
     row-gap: 100px;
+  }
+}
+@media (max-width: 500px) {
+  .heroText__content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
   }
 }
 .heroText__content h6 {
