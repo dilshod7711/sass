@@ -643,7 +643,7 @@ body {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: auto auto auto;
     gap: 50px;
-    padding: 30px;
+    padding: 1add0px;
   }
   .footer__content-menu:last-child {
     margin-top: 0;
