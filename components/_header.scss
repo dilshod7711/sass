@@ -21,6 +21,7 @@
         @media (max-width: 500px) {
             display: none;
         }
+       
 
         a {
             color: var(--menu-color);
@@ -56,5 +57,21 @@
        .search{
         display: none
     }
+    }
+    @media (max-width:1024px){
+        .search{
+            display: none,
+
+        }
+             .shop-cart {
+            display: none
+        }
+        .user {
+            display: none
+        }
+     .menu{
+         display: inline-block
+     }
+
     }
 }

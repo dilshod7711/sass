@@ -32,6 +32,15 @@
         @media (max-width: 500px) {
             flex-direction: column;
         }
+        @media (max-width: 1024px) {
+    display: grid;
+    justify-self: center;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto auto;
+    // column-gap: 100px;
+    row-gap: 100px;
+
+        }
 
         h6 {
             font-family: Satoshi;
