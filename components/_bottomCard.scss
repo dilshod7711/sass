@@ -1,0 +1,84 @@
+.bottomCard {
+    background-image: url("../img/bacround.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 444px;
+
+    &__content {
+        &-input {
+            @include d-flex;
+            margin-top: 40px;
+            input {
+                width: 354px;
+                height: 56px;
+                background-color: #F9F9F9;
+                border: none;
+                font-family: Satoshi;
+                font-weight: 400;
+                font-style: Regular;
+                font-size: 16px;
+                line-height: 100%;
+                letter-spacing: 0%;
+                color: var(--main-color);
+                padding: 10px 20px;
+            }
+            button {
+                width: 120px;
+                height: 56px;
+                background-color: var(--text-color);
+                border: none;
+                font-family: Satoshi;
+                font-weight: 400;
+                font-style: Regular;
+                font-size: 16px;
+                line-height: 100%;
+                letter-spacing: 0%;
+                color: var(--main-color);
+            }
+        }
+        padding: 50px;
+
+        h1 {
+            font-family: satoshi;
+            font-weight: 400;
+            font-style: Regular;
+            font-size: 32px;
+            line-height: 140%;
+            letter-spacing: 0%;
+            text-align: center;
+            color: var(--main-color);
+
+        }
+
+        p {
+            font-family: Satoshi;
+            font-weight: 400;
+            font-style: Regular;
+            font-size: 18px;
+            line-height: 150%;
+            letter-spacing: 0%;
+            text-align: center;
+            color: var(--main-color);
+            padding: 20px;
+            max-width: 470px;
+            margin: 0 auto
+        }
+
+        &-title {
+            @include d-flex;
+            gap: 10px;
+
+
+            img {
+                border-radius: 50%;
+            }
+        }
+
+        &-exclusive {
+            @include d-flex;
+            gap: 40px;
+            margin-top: 3%;
+        }
+    }
+}

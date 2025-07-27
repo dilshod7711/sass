@@ -3,20 +3,19 @@
     width: 100%;
     height: 700px;
 
-    img {
-        width: 100%;
-        height: 100%
-    }
-
+   background-image: url("../img/banner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 704px;
 
     &__content {
         width: 630px;
         height: 444px;
-        position: absolute;
-        top: 140px;
-        left: 800px;
         background-color: var(--main-color);
         padding: 44px;
+        margin-left: auto;
+        margin-top: 200px;
 
         h1 {
             font-family: Satoshi;
