@@ -1,0 +1,56 @@
+.fatures {
+    margin-top: 100px;
+
+    &__content {
+        @include d-flex;
+        gap: 32px;
+
+        &-text {
+            background-color: var(--text-color);
+            width: 634px;
+            height: 478px;
+            padding: 64px 64px;
+
+            h6 {
+                font-family: satoshi;
+                font-weight: 400;
+                font-style: Regular;
+                font-size: 32px;
+                line-height: 100%;
+                letter-spacing: 0%;
+                color: var(--main-color);
+            }
+
+            p {
+                font-family: Satoshi;
+                font-weight: 400;
+                font-style: Regular;
+                font-size: 18px;
+                line-height: 100%;
+                letter-spacing: 0%;
+                color: var(--main-color);
+                margin-top: 20px;
+                max-width: 495px;
+
+            }
+
+            button {
+                width: 170px;
+                height: 56px;
+                gap: 10px;
+                padding-top: 16px;
+                padding-right: 32px;
+                padding-bottom: 16px;
+                padding-left: 32px;
+                background-color: #F9F9F926;
+                border: none;
+                color: var(--main-color);
+                margin-top: 230px;
+                &:hover {
+                    cursor: pointer;
+                    
+                }
+            }
+        }
+    }
+}

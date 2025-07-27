@@ -1,0 +1,42 @@
+.heroText {
+    margin-top: 50px;
+    h1 {
+        font-family: Satoshi;
+        font-weight: 400;
+        font-style: Regular;
+        font-size: 24px;
+        line-height: 140%;
+        letter-spacing: 0%;
+        color: var(--text-color);
+        text-align: center;
+
+    }
+
+    &__content {
+        @include d-flex;
+        gap: 162px;
+        margin-top: 80px;
+
+        h6 {
+            font-family:Satoshi ;
+            font-weight: 400;
+            font-style: Regular;
+            font-size: 20px;
+            line-height: 140%;
+            letter-spacing: 0%;
+            color: var(--text-color);
+            }
+
+        p {
+            font-family:  Satoshi;
+            font-weight: 400;
+            font-style: Regular;
+            font-size: 16px;
+            line-height: 150%;
+            letter-spacing: 0%;
+            max-width: 209px;
+            color: var(--text-color);
+
+        }
+    }
+}

@@ -1,0 +1,86 @@
+.footer {
+    background-color: var(--text-color);
+
+    &__content {
+        @include d-flex;
+        justify-content: space-between;
+        margin-top: 50px;
+
+        &-menu:last-child {
+            margin-top: -30px;
+        }
+
+        &-menu {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+
+            p {
+                font-family: satoshi;
+                font-weight: 400;
+                font-style: Regular;
+                font-size: 18px;
+                line-height: 100%;
+                letter-spacing: 0%;
+                color: var(--main-color)
+            }
+
+            a {
+                font-family: Satoshi;
+                font-weight: 400;
+                font-style: Regular;
+                font-size: 14px;
+                line-height: 100%;
+                letter-spacing: 0%;
+                color: var(--main-color)
+            }
+
+            &-input {
+                @include d-flex;
+                margin-top: 20px;
+            }
+
+            input {
+                width: 509px;
+                height: 56px;
+                background-color: #FFFFFF26;
+                border: none;
+                font-family: Satoshi;
+                font-weight: 400;
+                font-style: Regular;
+                font-size: 16px;
+                line-height: 100%;
+                letter-spacing: 0%;
+                color: var(--main-color);
+                padding: 10px 20px;
+
+            }
+
+            button {
+                width: 110px;
+                height: 56px;
+
+            }
+
+        }
+    }
+
+    &__line {
+        border-top: 1px solid #4E4D93;
+        @include d-flex;
+        padding: 10px;
+        margin-top: 100px;
+        justify-content: space-between;
+
+        p {
+            font-family: Satoshi;
+            font-weight: 400;
+            font-style: Regular;
+            font-size: 14px;
+            line-height: 100%;
+            letter-spacing: 0%;
+            color: var(--main-color);
+            
+        }
+    }
+}

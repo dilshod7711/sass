@@ -1,0 +1,315 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+:root {
+  --main-color:#fff;
+  --secondary-color:#22202E;
+  --menu-color:#726E8D;
+  --text-color:#2A254B;
+}
+
+.header__nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+}
+.header__menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 44px;
+  margin-top: 50px;
+  border-top: 1px solid rgba(0, 0, 0, 0.1019607843);
+  padding: 20px;
+}
+.header__menu a {
+  color: var(--menu-color);
+  font-family: Satoshi;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+
+.hero {
+  position: relative;
+  width: 100%;
+  height: 700px;
+}
+.hero img {
+  width: 100%;
+  height: 100%;
+}
+.hero__content {
+  width: 630px;
+  height: 444px;
+  position: absolute;
+  top: 140px;
+  left: 800px;
+  background-color: var(--main-color);
+  padding: 44px;
+}
+.hero__content h1 {
+  font-family: Satoshi;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 32px;
+  line-height: 140%;
+  letter-spacing: 0%;
+  max-width: 460px;
+  color: var(--secondary-color);
+}
+.hero__content p {
+  font-family: Satoshi;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 18px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  color: #5B5676;
+  max-width: 343px;
+  margin-top: 30px;
+}
+.hero__content button {
+  font-family: Satoshi;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  color: #2A254B;
+  margin-top: 150px;
+  border: none;
+  background-color: var(--main-color);
+}
+
+.heroText {
+  margin-top: 50px;
+}
+.heroText h1 {
+  font-family: Satoshi;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 24px;
+  line-height: 140%;
+  letter-spacing: 0%;
+  color: var(--text-color);
+  text-align: center;
+}
+.heroText__content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 162px;
+  margin-top: 80px;
+}
+.heroText__content h6 {
+  font-family: Satoshi;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 20px;
+  line-height: 140%;
+  letter-spacing: 0%;
+  color: var(--text-color);
+}
+.heroText__content p {
+  font-family: Satoshi;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  max-width: 209px;
+  color: var(--text-color);
+}
+
+.card {
+  margin-top: 100px;
+}
+.card__content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+}
+.card__content p {
+  font-family: Satoshi;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 20px;
+  line-height: 140%;
+  letter-spacing: 0%;
+  margin-top: 15px;
+}
+.card__content span {
+  font-family: Satoshi;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0%;
+}
+.card button {
+  border: none;
+  background-color: var(--main-color);
+  text-align: center;
+  font-family: Satoshi;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  color: var(--text-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 80px;
+}
+.card button:hover {
+  cursor: pointer;
+}
+
+.fatures {
+  margin-top: 100px;
+}
+.fatures__content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+}
+.fatures__content-text {
+  background-color: var(--text-color);
+  width: 634px;
+  height: 478px;
+  padding: 64px 64px;
+}
+.fatures__content-text h6 {
+  font-family: satoshi;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 32px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: var(--main-color);
+}
+.fatures__content-text p {
+  font-family: Satoshi;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: var(--main-color);
+  margin-top: 20px;
+  max-width: 495px;
+}
+.fatures__content-text button {
+  width: 170px;
+  height: 56px;
+  gap: 10px;
+  padding-top: 16px;
+  padding-right: 32px;
+  padding-bottom: 16px;
+  padding-left: 32px;
+  background-color: rgba(249, 249, 249, 0.1490196078);
+  border: none;
+  color: var(--main-color);
+  margin-top: 230px;
+}
+.fatures__content-text button:hover {
+  cursor: pointer;
+}
+
+.footer {
+  background-color: var(--text-color);
+}
+.footer__content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+.footer__content-menu:last-child {
+  margin-top: -30px;
+}
+.footer__content-menu {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.footer__content-menu p {
+  font-family: satoshi;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: var(--main-color);
+}
+.footer__content-menu a {
+  font-family: Satoshi;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: var(--main-color);
+}
+.footer__content-menu-input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+.footer__content-menu input {
+  width: 509px;
+  height: 56px;
+  background-color: rgba(255, 255, 255, 0.1490196078);
+  border: none;
+  font-family: Satoshi;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: var(--main-color);
+  padding: 10px 20px;
+}
+.footer__content-menu button {
+  width: 110px;
+  height: 56px;
+}
+.footer__line {
+  border-top: 1px solid #4E4D93;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  margin-top: 100px;
+  justify-content: space-between;
+}
+.footer__line p {
+  font-family: Satoshi;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: var(--main-color);
+}/*# sourceMappingURL=main.css.map */
