@@ -207,7 +207,6 @@
 @media (max-width: 500px) {
   .heroText__content {
     flex-direction: column;
-    margin-left: -140px;
   }
 }
 .heroText__content h6 {
