@@ -14,6 +14,8 @@
 </head>
 
 <body>
+<div class="preloader">😊 Salom, foydalanuvchi!</div>
+
     <header class="header">
         <div class="container">
             <nav class="header__nav">
@@ -86,18 +88,18 @@
                 </div>
                 <div data-aos="flip-left">
                     <img src="./img/Parent.png" alt="">
-                    <p>The Dandy chair</p>
-                    <span>£250</span>
+                    <p>Rustic Vase Set</p>
+                    <span>£155</span>
                 </div>
                 <div data-aos="flip-left">
                     <img src="./img/Parent (1).png" alt="">
-                    <p>The Dandy chair</p>
-                    <span>£250</span>
+                    <p>The Silky Vase</p>
+                    <span>£125</span>
                 </div>
                 <div data-aos="flip-left">
                     <img src="./img/Parent (2).png" alt="">
-                    <p>The Dandy chair</p>
-                    <span>£250</span>
+                    <p>The Lucy Lamp</p>
+                    <span>£399</span>
                 </div>
             </div>
             <button>View collection</button>
@@ -131,11 +133,11 @@
                 </div>
                   <div class="bottomCard__content-title">
                     <img src="./img/Checkmark--outline.svg" alt="">
-                    <span>Exclusive offers</span>
+                    <span>Free events</span>
                 </div>
                   <div class="bottomCard__content-title">
                     <img src="./img/Checkmark--outline.svg" alt="">
-                    <span>Exclusive offers</span>
+                    <span>Large discounts</span>
                 </div>
                </div>
                <div class="bottomCard__content-input">
@@ -201,8 +203,12 @@
     </footer>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
+    setTimeout(() => {
+    document.body.classList.add("loaded");
+  }, 1000);
   AOS.init();
 </script>
+
 </body>
 
 </html>
