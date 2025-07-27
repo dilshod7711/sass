@@ -19,7 +19,7 @@
             line-height: 140%;
             letter-spacing: 0%;
             max-width: 274px;
-         
+
 
         }
 
@@ -29,10 +29,19 @@
         @include d-flex;
         gap: 162px;
         margin-top: 80px;
+
         @media (max-width: 500px) {
-            flex-direction: column;
+            display: flex;
+            flex-wrap: wrap;
+
         }
-        
+
+        @media (max-width: 1024px) {
+           display: flex;
+           flex-wrap: wrap;
+           padding: 40px 40px;
+        }
+
 
         h6 {
             font-family: Satoshi;
@@ -53,6 +62,7 @@
             letter-spacing: 0%;
             max-width: 209px;
             color: var(--text-color);
+
             @media (max-width: 500px) {
                 max-width: 294px;
             }

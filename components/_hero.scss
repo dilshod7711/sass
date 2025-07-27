@@ -29,6 +29,11 @@
     margin-top: -500px;
     margin-left: auto;
     z-index: 2;
+    @media (max-width: 1024px) {
+    max-width: 630px;
+    height: 350px;
+      
+    }
 
     h1 {
       font-family: Satoshi;
