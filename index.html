@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Avion</title>
     <link href="https://api.fontshare.com/v2/css?f[]=satoshi@400,500,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
@@ -12,9 +12,8 @@
     <link rel="stylesheet" href="./main.css">
 
 </head>
-
 <body>
-
+<div class="preloader">😊 Salom, foydalanuvchi!</div>
     <header class="header">
         <div class="container">
             <nav class="header__nav">
@@ -203,6 +202,9 @@
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
   AOS.init();
+    setTimeout(() => {
+    document.body.classList.add("loaded");
+  }, 5000);
 </script>
 
 </body>
